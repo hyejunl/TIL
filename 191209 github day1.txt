@@ -1,0 +1,25 @@
+1.git for windows 다운로드
+-설치 할 때 use git ~~~ 세번째 것으로 하면 됩니당~
+
+2.typora 다운로드
+
+3.ls                      폴더가 뭐가 있냐
+ mkdir test            test라는 폴더를 만들어라
+ cd test/                test라는 폴더 안으로 들어가라
+ cd ..                    test라는 폴더에서 빠져나와라
+ git init                 git 저장소를 만들어라 -> .git 폴더가 생김
+ touch a.txt            a.txt라는 파일을 만들게 됨
+ git status             이력을 확인하는 것
+ git add a.txt
+ git status
+ git commit -m 'a.txt 추가'
+
+
+
+4. git init 
+   git add .
+   git status
+   git commit -m '마크다운 사용법 정리'
+github 들어가서 새 repository 만들어 주고
+아래 두개 복사해서 붙여넣어줘서 넣어준다.
+
