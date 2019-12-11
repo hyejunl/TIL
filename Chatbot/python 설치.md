@@ -57,6 +57,31 @@ $ pip list
 $ python -m pip install --upgrade pip
 ```
 
+### 기타 turminal 조작
+
+```bash
+$ cd .. # 상위폴더로 가는 것
+$ cd Chatbot/ # Chatbot 폴더로 가는 것
+```
+
+---
+
+# Python 문법 +
+
+## 1. 문자열 삽입 (문자열 포매팅)
+
+* 파이썬 3.0 이상 -> **format 함수를 이용한 포매팅**
+* 파이썬 3.6 이상 -> **f-string 포매팅**
+
+```python
+# format 함수
+'{1} {0}'.format('one','two')
+
+# f-string
+a, b = 'one', 'two'
+f'{a}, {b}'
+```
+
 
 
  
