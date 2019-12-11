@@ -21,7 +21,7 @@ ctrl + `  눌러서 terminal 열기
 
 ```bash
 $ python -m venv venv #venv라는 가상환경 만들기
-$ source venv/Scrips/activate #venv라는 가상환경에 진입
+$ source venv/Scripts/activate #venv라는 가상환경에 진입
 ```
 
 테트리스 모양 눌러서 python치고 맨 위에 있는 아이 설치해주기
@@ -82,7 +82,18 @@ a, b = 'one', 'two'
 f'{a}, {b}'
 ```
 
+## 집에가서 가상환경 진입
+
+```bash
+# 가기전에 가상환경 것들 freeze
+$ pip freeze > requirements.txt
+```
+
+ ```bash
+$ python -m venv venv
+$ source venv/Scripts/activate
+$ pip install -r requirements.txt
+ ```
 
 
- 
 
